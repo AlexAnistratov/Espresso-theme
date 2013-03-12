@@ -1,0 +1,128 @@
+/*
+  @theme FruitPastel
+	@override-placeholders html, xml, php, css, js, html-js, html-php, apache
+	@author Alex Anistratov | www.artstrend.ru
+	@github https://github.com/AlexAnistratov
+*/
+@base {
+	color: #c9d2d4;
+	background-color: #2a2a2a;
+	insertion-point-color: #c9d2d4;
+	selection-background-color: #575f64;
+	current-line-background-color: #001e34;
+}
+tag, 
+source, 
+sourcecode {
+	spell-check: disabled;
+}
+invalid {
+	color: #2a2a2a;
+	background: #ff4d4d;
+}
+comment.line.invalid punctuation {
+	color: #2a2a2a;
+}
+tag,
+tag attribute-name {
+	color: #fa987b;
+}
+tag name {
+	color: #ff6c4f;
+}
+apache keyword.directive {
+	color: #7ec5ed;
+}
+apache tag keyword {
+	color: #ff6c4f;
+}
+tag attribute-value {
+	color: #7ec5ed;
+}
+constant.numeric,
+constant.language {
+	color: #23c5dd;
+	background-color: #3d4142;
+}
+operator {
+	color: #23c5dd;
+}
+comment,
+comment punctuation,
+comment delimiter,
+tag.doctype { 
+	color: #8b8b8b;
+}
+php punctuation,
+css punctuation.separator.key-value,
+css punctuation.terminator.rule,
+js punctuation {
+	color: #c9d2d4;
+}
+/* CSS
+------------------------------------------------------------- */
+css property-name {
+	color: #fabd7b;
+}
+css property-value,
+css property-list property-value constant punctuation{
+	color: #68c97a;
+}
+css string {
+	color: #23c5dd;
+}
+css selector {
+	color: #ff6c4f;
+}
+css selector pseudo-class,
+css selector pseudo-class punctuation {
+	color: #fa987b;
+}
+/* JS
+------------------------------------------------------------- */
+js variable name,
+js variable operator {
+	color: #fabd7b;
+}
+js string,
+js string punctuation {
+	color: #fabd7b;
+}
+js storage {
+	color: #fa987b;
+	color: #e794e0;
+}
+js variable {
+	color: #c9d2d4;
+}
+js control {
+	color: #8ba6ea;
+	
+}
+js variable.function.method {	
+	color: #8ba6ea;
+}
+/* PHP
+------------------------------------------------------------- */
+php punctuation {
+	color: #c9d2d4;
+}
+php keyword.definition {
+	color: #c9d2d4;
+}
+php string,
+php string punctuation {
+	color: #fabd7b;
+}
+php variable,
+php variable punctuation,
+php variable punctuation.dollar {
+	color: #7ec5ed;
+}
+php variable.function {
+	color: #68c97a;
+}
+php keyword.language,
+php control {
+	color: #68c97a;
+}
